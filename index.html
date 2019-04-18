@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+          <title>Jquery</title>
+  </head>
+
+   <body>
+      <button type="button" id="button1" onclick="Bold">Bold</button>
+      <button type="button" id="button2" onclick="italic">italic</button>
+      <button type="button" id="button3" onclick="underline()">underline</button>
+         <select id="listfont" onchange="font();">
+            <option value="Helvetica">Helvetica</option>
+            <option value="2" selected="selected">Times New Roman</option>
+            <option value="3">Georgia</option>
+         </select>
+      
+      <label for="select-choice-1" class="select">Size</label>
+         <select  id="size" onchange="Size();">
+            <option id="1" value="30px">1</option>
+            <option id="2" value="40px">2</option>
+            <option id="3" value="50px">3</option>
+            <option id="4" value="60px">4</option>
+         </select>
+
+            <br>
+            <br> 
+
+             <form action="">
+               Test: <input type="text" id="a">
+               <br>
+               <br>
+               <input type="reset" value="Reset">
+             </form>
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/common.js"></script>
+
+    </body>
+</html>
